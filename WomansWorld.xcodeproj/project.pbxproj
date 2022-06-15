@@ -18,6 +18,7 @@
 		2F14F8202859060F00BD7CF7 /* WomansWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F14F81F2859060F00BD7CF7 /* WomansWorldUITests.swift */; };
 		2F14F8222859060F00BD7CF7 /* WomansWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F14F8212859060F00BD7CF7 /* WomansWorldUITestsLaunchTests.swift */; };
 		2F14F82F2859890700BD7CF7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F14F82E2859890700BD7CF7 /* SecondViewController.swift */; };
+		2F14F831285A2E3900BD7CF7 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F14F830285A2E3900BD7CF7 /* thirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		2F14F81F2859060F00BD7CF7 /* WomansWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomansWorldUITests.swift; sourceTree = "<group>"; };
 		2F14F8212859060F00BD7CF7 /* WomansWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomansWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2F14F82E2859890700BD7CF7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2F14F830285A2E3900BD7CF7 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				2F14F7FD2859060D00BD7CF7 /* SceneDelegate.swift */,
 				2F14F7FF2859060D00BD7CF7 /* ViewController.swift */,
 				2F14F8012859060D00BD7CF7 /* Main.storyboard */,
+				2F14F830285A2E3900BD7CF7 /* thirdViewController.swift */,
 				2F14F82E2859890700BD7CF7 /* SecondViewController.swift */,
 				2F14F8072859060F00BD7CF7 /* Assets.xcassets */,
 				2F14F8092859060F00BD7CF7 /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 			files = (
 				2F14F8002859060D00BD7CF7 /* ViewController.swift in Sources */,
 				2F14F8062859060D00BD7CF7 /* WomansWorld.xcdatamodeld in Sources */,
+				2F14F831285A2E3900BD7CF7 /* thirdViewController.swift in Sources */,
 				2F14F7FC2859060D00BD7CF7 /* AppDelegate.swift in Sources */,
 				2F14F82F2859890700BD7CF7 /* SecondViewController.swift in Sources */,
 				2F14F7FE2859060D00BD7CF7 /* SceneDelegate.swift in Sources */,
