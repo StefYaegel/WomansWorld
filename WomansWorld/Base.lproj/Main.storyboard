@@ -9,9 +9,63 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="IL9-ZC-d5A">
+            <objects>
+                <viewController id="tpk-dh-3F4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w2c-Vr-6lv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled_Artwork 2 copy 2" translatesAutoresizingMaskIntoConstraints="NO" id="dYG-bg-HyN">
+                                <rect key="frame" x="-86" y="44" width="547" height="430"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bp3-xt-hV9">
+                                <rect key="frame" x="86" y="482" width="241" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Get Started">
+                                    <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.35686278339999999" green="0.49803921579999999" blue="0.55294120309999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="iLR-V9-g8D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LE-i8-VJc">
+                                <rect key="frame" x="86" y="618" width="241" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="About Us">
+                                    <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.35686278339999999" green="0.49803921579999999" blue="0.55294120309999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="HTb-tL-guY" kind="show" id="J7m-GD-tXZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Woman's World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acy-ha-Pbi">
+                                <rect key="frame" x="75" y="379" width="262" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3dD-XL-mha"/>
+                        <color key="backgroundColor" red="0.66666668650000005" green="0.78431367870000002" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eVL-NT-FYy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-823.1884057971015" y="88.392857142857139"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WomansWorld" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="WomansWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -53,7 +107,7 @@
                                 <rect key="frame" x="36" y="594" width="341" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Sign In">
+                                <buttonConfiguration key="configuration" style="filled" title="Start Shopping">
                                     <fontDescription key="titleFontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="19"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.35686278339999999" green="0.49803921579999999" blue="0.55294120309999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -85,6 +139,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.66666668650000005" green="0.78431367870000002" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dw2-D6-8cB"/>
                     <connections>
                         <segue destination="F3X-3a-21I" kind="show" id="dzi-hX-Vbq"/>
                     </connections>
@@ -417,11 +472,11 @@
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footwear" translatesAutoresizingMaskIntoConstraints="NO" id="FuW-p9-Eyr">
-                                <rect key="frame" x="227" y="298" width="160" height="154"/>
+                                <rect key="frame" x="220" y="512" width="160" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MOB-220612-CHS_HP_hero@1.5x" translatesAutoresizingMaskIntoConstraints="NO" id="LfH-dg-h88">
-                                <rect key="frame" x="227" y="512" width="160" height="154"/>
+                                <rect key="frame" x="220" y="298" width="160" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EYXFashion_MixedJewelry_Featured-Secondary-Image" translatesAutoresizingMaskIntoConstraints="NO" id="iuM-NK-UZC">
@@ -485,7 +540,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTF-VP-f3g">
-                                <rect key="frame" x="218" y="665" width="108" height="42"/>
+                                <rect key="frame" x="220" y="450" width="108" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -507,22 +562,6 @@
                                 <buttonConfiguration key="configuration" style="plain">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Jewelry">
-                                            <attributes>
-                                                <color key="NSColor" red="0.31463897229999999" green="0.50184637310000002" blue="0.55884701010000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="20" name="AvenirNext-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvQ-DK-Sa8">
-                                <rect key="frame" x="214" y="450" width="116" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Footwear">
                                             <attributes>
                                                 <color key="NSColor" red="0.31463897229999999" green="0.50184637310000002" blue="0.55884701010000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="20" name="AvenirNext-Bold"/>
@@ -559,6 +598,22 @@
                                 </attributedString>
                                 <color key="highlightedColor" red="0.35686278339999999" green="0.49803921579999999" blue="0.55294120309999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvQ-DK-Sa8">
+                                <rect key="frame" x="216" y="665" width="116" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Footwear">
+                                            <attributes>
+                                                <color key="NSColor" red="0.31463897229999999" green="0.50184637310000002" blue="0.55884701010000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="AvenirNext-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zfN-GQ-yZ3"/>
                         <color key="backgroundColor" red="0.86274516580000005" green="0.84705877299999999" blue="0.77254903320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -840,7 +895,7 @@
         <!--View Controller-->
         <scene sceneID="VqZ-Rd-FSE">
             <objects>
-                <viewController id="HTb-tL-guY" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="HTb-tL-guY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eLC-Vj-tPd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -892,7 +947,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="ABOUT US">
                                         <attributes>
-                                            <color key="NSColor" red="1" green="0.99798024766327564" blue="0.99938904614262147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.35686278339999999" green="0.4941176176" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <font key="NSFont" size="31" name="AvenirNext-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -902,13 +957,14 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h2x-Io-EIS"/>
-                        <color key="backgroundColor" red="0.63414591549999999" green="0.78838115929999997" blue="0.65305387969999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.86274516580000005" green="0.84705877299999999" blue="0.77254903320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.31463897229999999" green="0.50184637310000002" blue="0.55884701010000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="YQD-6Y-9H1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HMD-lQ-vik" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1570" y="84"/>
+            <point key="canvasLocation" x="-823" y="-590"/>
         </scene>
         <!--Skincare View Controller-->
         <scene sceneID="iMb-6u-0lA">
