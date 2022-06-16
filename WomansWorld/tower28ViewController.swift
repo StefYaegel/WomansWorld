@@ -1,13 +1,13 @@
 //
-//  skincareViewController.swift
+//  tower28ViewController.swift
 //  WomansWorld
 //
-//  Created by Querida Alleyne on 6/15/22.
+//  Created by Querida Alleyne on 6/16/22.
 //
 
 import UIKit
 
-class skincareViewController: UIViewController {
+class tower28ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,11 +15,11 @@ class skincareViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func iimageClick (_sender: Any) {}
+    @IBAction func onClick(_ sender: UIButton) {
+        let webURL = URL(string: "https://www.tower28beauty.com")
+        UIApplication.shared.open(webURL!)
+    }
     
-    @IBAction func imageClick (_sender: Any) {}
-
-    @IBAction func iiimageClick (_sender: Any) {}
     /*
     // MARK: - Navigation
 

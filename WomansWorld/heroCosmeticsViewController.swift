@@ -15,7 +15,11 @@ class heroCosmeticsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func onClick(_ sender: UIButton) {
+        let webURL = URL(string: "https://www.herocosmetics.us/")
+        UIApplication.shared.open(webURL!)
+    }
+    
     /*
     // MARK: - Navigation
 

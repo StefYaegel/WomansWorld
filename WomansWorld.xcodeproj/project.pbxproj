@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		22708A00285A9B6600E417C9 /* skincareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227089FF285A9B6600E417C9 /* skincareViewController.swift */; };
 		22708A02285A9B8C00E417C9 /* heroCosmeticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22708A01285A9B8C00E417C9 /* heroCosmeticsViewController.swift */; };
+		22708A04285AFAFA00E417C9 /* wanderBeautyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22708A03285AFAFA00E417C9 /* wanderBeautyViewController.swift */; };
+		22708A06285AFB3400E417C9 /* tower28ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22708A05285AFB3400E417C9 /* tower28ViewController.swift */; };
 		2F14F7FC2859060D00BD7CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F14F7FB2859060D00BD7CF7 /* AppDelegate.swift */; };
 		2F14F7FE2859060D00BD7CF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F14F7FD2859060D00BD7CF7 /* SceneDelegate.swift */; };
 		2F14F8002859060D00BD7CF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F14F7FF2859060D00BD7CF7 /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 /* Begin PBXFileReference section */
 		227089FF285A9B6600E417C9 /* skincareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skincareViewController.swift; sourceTree = "<group>"; };
 		22708A01285A9B8C00E417C9 /* heroCosmeticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heroCosmeticsViewController.swift; sourceTree = "<group>"; };
+		22708A03285AFAFA00E417C9 /* wanderBeautyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wanderBeautyViewController.swift; sourceTree = "<group>"; };
+		22708A05285AFB3400E417C9 /* tower28ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tower28ViewController.swift; sourceTree = "<group>"; };
 		2F14F7F82859060D00BD7CF7 /* WomansWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WomansWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F14F7FB2859060D00BD7CF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F14F7FD2859060D00BD7CF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 				2F14F7FD2859060D00BD7CF7 /* SceneDelegate.swift */,
 				2F14F7FF2859060D00BD7CF7 /* ViewController.swift */,
 				2F14F8012859060D00BD7CF7 /* Main.storyboard */,
+				22708A05285AFB3400E417C9 /* tower28ViewController.swift */,
+				22708A03285AFAFA00E417C9 /* wanderBeautyViewController.swift */,
 				22708A01285A9B8C00E417C9 /* heroCosmeticsViewController.swift */,
 				227089FF285A9B6600E417C9 /* skincareViewController.swift */,
 				2F14F830285A2E3900BD7CF7 /* thirdViewController.swift */,
@@ -286,7 +292,9 @@
 				2F14F82F2859890700BD7CF7 /* SecondViewController.swift in Sources */,
 				E97A160C285A6782004C63B3 /* Product Details.swift in Sources */,
 				22708A00285A9B6600E417C9 /* skincareViewController.swift in Sources */,
+				22708A04285AFAFA00E417C9 /* wanderBeautyViewController.swift in Sources */,
 				2F14F7FE2859060D00BD7CF7 /* SceneDelegate.swift in Sources */,
+				22708A06285AFB3400E417C9 /* tower28ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
