@@ -15,7 +15,15 @@ class ClothingViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func onClickCubbie(_ sender: Any) {
+    }
+    
+    @IBAction func onClickEberjey(_ sender: Any) {
+    }
+    
+    @IBAction func onClickLisa(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 

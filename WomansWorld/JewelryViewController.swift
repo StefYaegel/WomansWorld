@@ -19,6 +19,13 @@ class JewelryViewController: UIViewController {
     @IBAction func onClick(_ sender: Any) {
     }
     
+    
+    @IBAction func onClickInk(_ sender: Any) {
+    }
+    
+    @IBAction func onClickOma(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
