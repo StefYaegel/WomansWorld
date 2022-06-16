@@ -14,9 +14,12 @@ class SecondWindViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-  
     
-
+    @IBAction func onClick(_ sender: UIButton) {
+        let webURL = URL(string: "https://shopsecondwind.com/")
+        UIApplication.shared.open(webURL!)
+    }
+    
     /*
     // MARK: - Navigation
 

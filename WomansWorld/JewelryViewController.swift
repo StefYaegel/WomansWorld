@@ -15,7 +15,10 @@ class JewelryViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
+    @IBAction func onClick(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 

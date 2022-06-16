@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8Zt-qn-5pB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1C4-vC-5as">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -467,9 +467,6 @@
                                 <rect key="frame" x="28" y="298" width="160" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="k0t-zR-pl5" appends="YES" id="nRg-LW-TbB"/>
-                                </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footwear" translatesAutoresizingMaskIntoConstraints="NO" id="FuW-p9-Eyr">
                                 <rect key="frame" x="220" y="512" width="160" height="154"/>
@@ -623,7 +620,6 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kLJ-xt-ZbR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="k0t-zR-pl5" userLabel="Skincare Tap Gesture Recognizer"/>
             </objects>
             <point key="canvasLocation" x="735" y="70"/>
         </scene>
@@ -1630,6 +1626,9 @@
                                                         <rect key="frame" x="38" y="127" width="296" height="326"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="Wch-yY-gbu" appends="YES" id="tzu-PV-RTs"/>
+                                                        </connections>
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.86274516580000005" green="0.84705877299999999" blue="0.77254903320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1711,6 +1710,12 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0D5-3E-6rJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Wch-yY-gbu" userLabel="Second Wind Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="onClick:" destination="1C4-vC-5as" id="7UD-ye-Ker"/>
+                        <segue destination="aci-ty-xZs" kind="show" id="9jO-EY-Ivf"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2708.6956521739135" y="813.61607142857144"/>
         </scene>
@@ -1957,7 +1962,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="onClick:" destination="aci-ty-xZs" eventType="touchUpInside" id="I9J-pO-8NB"/>
+                                    <action selector="onClick:" destination="aci-ty-xZs" eventType="touchUpInside" id="eeU-sI-fQc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARC-yf-37G">
@@ -1983,6 +1988,7 @@
                         <viewLayoutGuide key="safeArea" id="Smp-lx-QYE"/>
                         <color key="backgroundColor" red="0.86274516580000005" green="0.84705877299999999" blue="0.77254903320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="FfZ-M7-KSc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F72-iw-cnD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
