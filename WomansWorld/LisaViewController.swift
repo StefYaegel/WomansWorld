@@ -1,13 +1,13 @@
 //
-//  CubbieViewController.swift
+//  LisaViewController.swift
 //  WomansWorld
 //
-//  Created by Kelsey Lagana on 6/16/22.
+//  Created by Querida Alleyne on 6/16/22.
 //
 
 import UIKit
 
-class CubbieViewController: UIViewController {
+class LisaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,8 +16,8 @@ class CubbieViewController: UIViewController {
     }
     
     @IBAction func onClick(_ sender: UIButton) {
-        let webURL = URL(string: "https://www.cubbiekit.com/")
-        UIApplication.shared.open(webURL!)
+            let webURL = URL(string: "https://lisasaysgah.com")
+            UIApplication.shared.open(webURL!)
     }
     
     /*

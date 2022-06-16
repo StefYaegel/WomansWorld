@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221867F3285B8E8600516351 /* LisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221867F2285B8E8500516351 /* LisaViewController.swift */; };
 		22708A00285A9B6600E417C9 /* skincareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227089FF285A9B6600E417C9 /* skincareViewController.swift */; };
 		22708A02285A9B8C00E417C9 /* heroCosmeticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22708A01285A9B8C00E417C9 /* heroCosmeticsViewController.swift */; };
 		22708A04285AFAFA00E417C9 /* wanderBeautyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22708A03285AFAFA00E417C9 /* wanderBeautyViewController.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221867F2285B8E8500516351 /* LisaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LisaViewController.swift; sourceTree = "<group>"; };
 		227089FF285A9B6600E417C9 /* skincareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skincareViewController.swift; sourceTree = "<group>"; };
 		22708A01285A9B8C00E417C9 /* heroCosmeticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heroCosmeticsViewController.swift; sourceTree = "<group>"; };
 		22708A03285AFAFA00E417C9 /* wanderBeautyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wanderBeautyViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				2F14F7FD2859060D00BD7CF7 /* SceneDelegate.swift */,
 				2F14F7FF2859060D00BD7CF7 /* ViewController.swift */,
 				2F14F8012859060D00BD7CF7 /* Main.storyboard */,
+				221867F2285B8E8500516351 /* LisaViewController.swift */,
 				2F14F83C285B882600BD7CF7 /* ClothingViewController.swift */,
 				2F14F83A285B860600BD7CF7 /* EberjeyViewController.swift */,
 				2F14F838285B85E000BD7CF7 /* CubbieViewController.swift */,
@@ -315,6 +318,7 @@
 				2F14F83D285B882600BD7CF7 /* ClothingViewController.swift in Sources */,
 				2F14F837285B81D700BD7CF7 /* OmaViewController.swift in Sources */,
 				2F14F83B285B860600BD7CF7 /* EberjeyViewController.swift in Sources */,
+				221867F3285B8E8600516351 /* LisaViewController.swift in Sources */,
 				2F14F7FE2859060D00BD7CF7 /* SceneDelegate.swift in Sources */,
 				2F14F839285B85E000BD7CF7 /* CubbieViewController.swift in Sources */,
 				2F14F835285B806C00BD7CF7 /* InkAlloyViewController.swift in Sources */,
