@@ -61,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eVL-NT-FYy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-823.1884057971015" y="88.392857142857139"/>
+            <point key="canvasLocation" x="-1290" y="247"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -96,13 +96,13 @@
                                 <rect key="frame" x="33" y="427" width="341" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" textContentType="email"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4wa-pr-Z7z">
                                 <rect key="frame" x="36" y="519" width="341" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6sz-Gr-ebl">
                                 <rect key="frame" x="36" y="594" width="341" height="56"/>
@@ -164,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
+            <point key="canvasLocation" x="-536" y="246"/>
         </scene>
         <!--Cubbie View Controller-->
         <scene sceneID="aFk-wW-RaG">
@@ -464,7 +464,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="onClick:" destination="ilo-1U-f11" eventType="touchUpInside" id="Vb6-nl-F76"/>
+                                    <action selector="onClick:" destination="ilo-1U-f11" eventType="touchUpInside" id="Upg-Sl-kHh"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled_Artwork 2 copy 2 Small" translatesAutoresizingMaskIntoConstraints="NO" id="vj0-Ao-2p2">
@@ -493,7 +493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Xd-VP-q6M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1489.8550724637682" y="-630.13392857142856"/>
+            <point key="canvasLocation" x="1490" y="-640"/>
         </scene>
         <!--Ink Alloy View Controller-->
         <scene sceneID="Za9-cR-Rac">
@@ -675,7 +675,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kLJ-xt-ZbR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="735" y="70"/>
+            <point key="canvasLocation" x="184" y="246"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VqZ-Rd-FSE">
@@ -806,7 +806,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HMD-lQ-vik" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-823.1884057971015" y="-590.625"/>
+            <point key="canvasLocation" x="-536" y="-439"/>
         </scene>
         <!--Skincare View Controller-->
         <scene sceneID="iMb-6u-0lA">
@@ -1057,7 +1057,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="363.768115942029" y="813.61607142857144"/>
+            <point key="canvasLocation" x="364" y="932"/>
         </scene>
         <!--Wander Beauty View Controller-->
         <scene sceneID="cef-tY-gbv">
@@ -1159,7 +1159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Njp-d0-3QS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1137.68115942029" y="813.61607142857144"/>
+            <point key="canvasLocation" x="1138" y="931"/>
         </scene>
         <!--Hero Cosmetics View Controller-->
         <scene sceneID="kxF-Gz-U7i">
@@ -1565,7 +1565,7 @@
                                                         </subviews>
                                                         <color key="backgroundColor" red="0.86274516580000005" green="0.84705877299999999" blue="0.77254903320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </view>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oma-1" translatesAutoresizingMaskIntoConstraints="NO" id="PD2-q3-jEh">
+                                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oma-1" translatesAutoresizingMaskIntoConstraints="NO" id="PD2-q3-jEh">
                                                         <rect key="frame" x="63" y="899" width="249" height="320"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <gestureRecognizers/>
@@ -2212,13 +2212,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="pnU-Tj-cy5"/>
-        <segue reference="GEy-bE-Qz8"/>
+        <segue reference="sQR-Uk-JD5"/>
+        <segue reference="D7M-nH-qZe"/>
         <segue reference="yc6-gB-8tG"/>
-        <segue reference="vTb-le-aUT"/>
-        <segue reference="yO2-1T-pGF"/>
+        <segue reference="bTF-Du-IqL"/>
+        <segue reference="0hY-mi-3Hx"/>
         <segue reference="KKX-08-jTV"/>
-        <segue reference="m7F-V6-pZ1"/>
+        <segue reference="Gyf-bD-s4m"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="040921_mixing_skincare_lead-2000" width="1323" height="1334"/>
