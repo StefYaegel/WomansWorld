@@ -411,6 +411,10 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="040921_mixing_skincare_lead-2000" translatesAutoresizingMaskIntoConstraints="NO" id="vET-bw-OFX">
                                 <rect key="frame" x="28" y="298" width="160" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="k0t-zR-pl5" appends="YES" id="nRg-LW-TbB"/>
+                                </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footwear" translatesAutoresizingMaskIntoConstraints="NO" id="FuW-p9-Eyr">
                                 <rect key="frame" x="227" y="298" width="160" height="154"/>
@@ -564,6 +568,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kLJ-xt-ZbR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="k0t-zR-pl5" userLabel="Skincare Tap Gesture Recognizer"/>
             </objects>
             <point key="canvasLocation" x="743.47826086956525" y="84.375"/>
         </scene>
@@ -1732,6 +1737,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="onClick:" destination="q3z-eA-eUo" eventType="touchUpInside" id="AOV-pl-LGt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="C1L-kZ-B8H"/>
@@ -1806,6 +1814,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="onClick:" destination="ari-lC-hLN" eventType="touchUpInside" id="MeP-5e-FwL"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9KE-Dh-4SS">
                                 <rect key="frame" x="66" y="113" width="283" height="55"/>
@@ -1889,6 +1900,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="onClick:" destination="aci-ty-xZs" eventType="touchUpInside" id="I9J-pO-8NB"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARC-yf-37G">
                                 <rect key="frame" x="35" y="487" width="351" height="376"/>

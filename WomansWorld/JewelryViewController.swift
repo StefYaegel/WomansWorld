@@ -1,22 +1,18 @@
 //
-//  SecondWindViewController.swift
+//  JewelryViewController.swift
 //  WomansWorld
 //
-//  Created by Kelsey Lagana on 6/16/22.
+//  Created by Querida Alleyne on 6/16/22.
 //
 
 import UIKit
 
-class SecondWindViewController: UIViewController {
+class JewelryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    @IBAction func onClick(_ sender: UIButton) {
-        let webURL = URL(string: "https://lisasaysgah.com")
-        UIApplication.shared.open(webURL!)
     }
     
 

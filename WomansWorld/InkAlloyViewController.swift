@@ -15,7 +15,11 @@ class InkAlloyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func onClick(_ sender: UIButton) {
+        let webURL = URL(string: "https://inkalloy.com/")
+        UIApplication.shared.open(webURL!)
+    }
+    
     /*
     // MARK: - Navigation
 
