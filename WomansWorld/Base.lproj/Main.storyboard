@@ -432,10 +432,10 @@
             </objects>
             <point key="canvasLocation" x="1489.8550724637682" y="-630.13392857142856"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Ink Alloy View Controller-->
         <scene sceneID="Za9-cR-Rac">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="F3X-3a-21I" customClass="SecondViewController" customModule="WomansWorld" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="F3X-3a-21I" customClass="InkAlloyViewController" customModule="WomansWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EDf-15-khZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -625,7 +625,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kLJ-xt-ZbR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="k0t-zR-pl5" userLabel="Skincare Tap Gesture Recognizer"/>
             </objects>
-            <point key="canvasLocation" x="743.47826086956525" y="84.375"/>
+            <point key="canvasLocation" x="735" y="70"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="9Fa-Dz-7wT">
@@ -1501,10 +1501,10 @@
             </objects>
             <point key="canvasLocation" x="1137.68115942029" y="1630.5803571428571"/>
         </scene>
-        <!--Skincare View Controller-->
+        <!--Jewelry View Controller-->
         <scene sceneID="WPZ-OG-Hls">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="1C4-vC-5as" customClass="skincareViewController" customModule="WomansWorld" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="1C4-vC-5as" customClass="JewelryViewController" customModule="WomansWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d6L-Aw-SCz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
